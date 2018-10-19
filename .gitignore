@@ -1,0 +1,8 @@
+*.swp
+*.pyc
+*.log
+*.txt
+*.csv
+*.tsv
+.DS_Store
+data/*
