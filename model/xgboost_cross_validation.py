@@ -8,9 +8,7 @@ import random
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import KFold
 
-
 # We may also consider using RandomizedSearchCV
-
 
 train, test = load_data()
 
