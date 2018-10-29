@@ -14,9 +14,9 @@ def load_raw_data():
     test['data_type'] = 'test'
     data = pd.concat([train, test])
 
-    data['logSalePrice'] = data['SalePrice'].apply(math.log)
+    # data['logSalePrice'] = data['SalePrice'].apply(math.log)
     # data = data.drop('SalePrice', axis=1)
-    data['sale_date'] = data['YrSold'].map(str) + '-' + data['MoSold'].map(str)
+    # data['sale_date'] = data['YrSold'].map(str) + '-' + data['MoSold'].map(str)
 
     return data
 
