@@ -7,3 +7,5 @@
 .DS_Store
 data/*
 .idea
+.ipynb_checkpoints/*
+model/.ipynb_checkpoints/*
